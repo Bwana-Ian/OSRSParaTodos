@@ -15,6 +15,9 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.Buffer;
 import java.util.HashMap;
 
 @Slf4j
@@ -51,7 +54,8 @@ public class ParaTodosPlugin extends Plugin
 		log.info("OSRSParaTodos started!");
 		esTranslation = new HashMap<>();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("src/main/java/com/bwanaian/es.csv"));
+			InputStream is = getClass().getClassLoader().getResourceAsStream("es.csv");
+			BufferedReader br = new BufferedReader(new InputStreamReader(is));
 			String line = null;
 			while ((line = br.readLine()) != null) {
 				String str[] = line.split(",");
