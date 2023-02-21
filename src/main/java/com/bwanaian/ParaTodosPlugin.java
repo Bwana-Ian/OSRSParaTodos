@@ -53,9 +53,7 @@ public class ParaTodosPlugin extends Plugin
 	{
 		log.info("OSRSParaTodos started!");
 		esTranslation = new HashMap<>();
-		try {
-			InputStream is = getClass().getClassLoader().getResourceAsStream("es.csv");
-			BufferedReader br = new BufferedReader(new InputStreamReader(is));
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/es.csv")))) {
 			String line = null;
 			while ((line = br.readLine()) != null) {
 				String str[] = line.split(",");
