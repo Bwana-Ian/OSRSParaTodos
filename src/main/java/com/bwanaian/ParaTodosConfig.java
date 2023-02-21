@@ -9,11 +9,11 @@ public interface ParaTodosConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		name = "Coming soon...",
+		description = "This option is still being worked on"
 	)
 	default String greeting()
 	{
-		return "Hello";
+		return "";
 	}
 }

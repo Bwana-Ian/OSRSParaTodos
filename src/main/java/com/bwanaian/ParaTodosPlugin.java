@@ -34,10 +34,14 @@ public class ParaTodosPlugin extends Plugin
 	@Subscribe
 	public void onMenuEntryAdded(MenuEntryAdded event)
 	{
-		String eng = event.getMenuEntry().getOption();
-		if (esTranslation.containsKey(eng)){
-			String tran = esTranslation.get(eng);
-			event.getMenuEntry().setOption(event.getOption().replace(eng,tran));
+		try {
+			String eng = event.getMenuEntry().getOption();
+			if (esTranslation.containsKey(eng)) {
+				String tran = esTranslation.get(eng);
+				event.getMenuEntry().setOption(event.getOption().replace(eng, tran));
+			}
+		} catch (Exception e){
+			log.error(e.getMessage());
 		}
 	}
 
@@ -46,11 +50,15 @@ public class ParaTodosPlugin extends Plugin
 	{
 		log.info("OSRSParaTodos started!");
 		esTranslation = new HashMap<>();
-		BufferedReader br = new BufferedReader(new FileReader("src/main/java/com/bwanaian/es.csv"));
-		String line = null;
-		while((line=br.readLine()) != null){
-			String str[] = line.split(",");
-			esTranslation.put(str[0],str[1]);
+		try {
+			BufferedReader br = new BufferedReader(new FileReader("src/main/java/com/bwanaian/es.csv"));
+			String line = null;
+			while ((line = br.readLine()) != null) {
+				String str[] = line.split(",");
+				esTranslation.put(str[0], str[1]);
+			}
+		} catch (Exception e){
+			log.error(e.getMessage());
 		}
 	}
 
@@ -58,12 +66,6 @@ public class ParaTodosPlugin extends Plugin
 	protected void shutDown() throws Exception
 	{
 		log.info("OSRSParaTodos stopped!");
-	}
-
-	@Subscribe
-	public void onGameStateChanged(GameStateChanged gameStateChanged)
-	{
-
 	}
 
 	@Provides
