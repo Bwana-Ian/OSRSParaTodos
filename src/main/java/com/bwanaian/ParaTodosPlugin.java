@@ -10,6 +10,7 @@ import net.runelite.client.chat.ChatMessageManager;
 import net.runelite.client.chat.QueuedMessage;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.eventbus.Subscribe;
+import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDescriptor;
 
@@ -32,15 +33,15 @@ public class ParaTodosPlugin extends Plugin
 	@Inject
 	private ParaTodosConfig config;
 
-	private HashMap<String,String> esTranslation;
+	private HashMap<String,String> translation;
 
 	@Subscribe
 	public void onMenuEntryAdded(MenuEntryAdded event)
 	{
 		try {
 			String eng = event.getMenuEntry().getOption();
-			if (esTranslation.containsKey(eng)) {
-				String tran = esTranslation.get(eng);
+			if (translation.containsKey(eng)) {
+				String tran = translation.get(eng);
 				event.getMenuEntry().setOption(event.getOption().replace(eng, tran));
 			}
 		} catch (Exception e){
@@ -48,16 +49,28 @@ public class ParaTodosPlugin extends Plugin
 		}
 	}
 
+	@Subscribe
+	private void onConfigChanged(ConfigChanged event) throws Exception {
+		log.info("Loading new language... " + config.lang().getCode());
+		loadTranslation(config.lang().getCode());
+	}
+
 	@Override
 	protected void startUp() throws Exception
 	{
 		log.info("OSRSParaTodos started!");
-		esTranslation = new HashMap<>();
-		try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream("/es.csv")))) {
+		loadTranslation(config.lang().getCode());
+	}
+
+	private void loadTranslation(String lang) throws Exception
+	{
+		translation = new HashMap<>();
+		String fileName = "/" + lang + ".csv";
+		try (BufferedReader br = new BufferedReader(new InputStreamReader(getClass().getResourceAsStream(fileName)))) {
 			String line = null;
 			while ((line = br.readLine()) != null) {
 				String str[] = line.split(",");
-				esTranslation.put(str[0], str[1]);
+				translation.put(str[0], str[1]);
 			}
 		} catch (Exception e){
 			log.error(e.getMessage());

@@ -1,5 +1,6 @@
 package com.bwanaian;
 
+import com.bwanaian.config.lang;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
@@ -8,12 +9,12 @@ import net.runelite.client.config.ConfigItem;
 public interface ParaTodosConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Coming soon...",
-		description = "This option is still being worked on"
+		keyName = "language",
+		name = "Language",
+		description = "Language you would like to translate to"
 	)
-	default String greeting()
+	default lang lang()
 	{
-		return "";
+		return lang.SPANISH;
 	}
 }
