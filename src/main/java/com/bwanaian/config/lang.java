@@ -7,7 +7,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public enum lang {
     SPANISH("Spanish", "es"),
-    GERMAN("German", "de");
+    GERMAN("German", "de"),
+    FRENCH("French","fr"),
+    RUSSIAN("Russian", "ru");
 
     private final String name;
     private final String code;
