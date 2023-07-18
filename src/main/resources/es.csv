@@ -1,54 +1,129 @@
 Walk here,Caminar aqui
 Follow,Seguir
-Trade with,Comercio con
-Report,Informe
+Trade with,Comerciar con
+Report,Reportar
 Examine,Examinar
-Attack,Ataque
-Pickpocket,Carterista
+Attack,Atacar
+Pickpocket,Robar
 Enter,Ingresar
-Take,Llevar
+Take,Tomar
 Talk-to,Hablar con
-Wield,Empunar
+Wield,Equipar
 Withdraw,Retirar
-Deposit,Deposito
+Deposit,Depositar
 Cancel,Cancelar
 Bank,Banco
 Collect,Recolectar
 Use,Usar
-Drop,Gota
+Drop,Tirar
 Destroy,Destruir
 Home,Casa
 Build mode,Modo de construccion
 Build,Construir
-Remove,Eliminar
-Friend's house,Casa de amigos
+Remove,Quitar
+Friend's house,Casa de un amigo
 Buy-plank,Comprar tablon
 Value,Valor
 Buy,Comprar
 Eat,Comer
 Cast,Lanzar
-Exchange,Intercambio
-History,Historia
-Sets,conjuntos
-Wear,Tener puesto
-Activate,activar
+Exchange,Intercambiar
+History,Historial
+Sets,Conjuntos
+Wear,Equipar
+Activate,Activar
 Logout,Cerrar sesion
 Add friend,Anadir amigo
-Add ignore,Anadir ignorar
+Add ignore,Ignorar
 Prices,Precios
-Loot,Botín
-Chop down,Tronchar
-View,Vista
-Trade,Comercio
-Claim,Afirmar
-Search,Buscar
+Loot,Saquear
+Chop down,Talar
+View,Ver
+Trade,Comerciar
+Claim,Reclamar
+Search,Buscar en
 Makeover,Cambio de imagen
 Climb-up,Subir
 Climb-down,Bajar
-Close,Cerca
-Open,Abierto
-Smelt,Eperlano
+Close,Cerrar
+Open,Abrir
+Smelt,Fundir
 Steal-from,Robar de
-Mine,Mina
-Cook,Cocinando
+Mine,Minar
+Cook,Cocinar
 Pray-at,Orar en
+Check-health,Comprobar salud
+Pay,Pagar
+Inspect,Inspeccionar
+Guide,Guia
+Age,Edad
+Smith,Forjar
+Kitten,Gatito
+Pick,Recoger
+Lure,Señuelo
+Bait,Carnada
+Dismiss,Rechazar
+Pick-up,Recoger
+Contract,Contrato
+Relocate,Relocalizar
+Redecorate,Redecorar
+Rewards,Recompensas
+Shut,Cerrar
+Toggle-minerals,Activar/Desactivar minerales
+Shop,Tienda
+Squeeze-through,Pasar a traves de
+Search for traps,Buscar trampas
+Empty,Vaciar
+Walk-across,Caminar a traves de
+Fire,Cocer
+Pull,Jalar
+Climb-under,Trepar por debajo
+Climb-into,Trepar dentro
+Inflate,Inflar
+Pluck,Desplumar
+Suck,Succionar
+Chop,Talar
+Configure,Configurar
+Last-destination,Ultimo destino
+Climb,Escalar
+Move,Mover
+Armour,Armadura
+Shear,Esquilar
+Read,Leer
+Board,Abordar
+Net,Red
+Take-from,Tomar de
+Claim-thropies,Reclamar trofeos
+Clear,Limpiar
+Grapple,Enganchar
+Small Net,Red pequeña
+Harpoon,Arpon
+Cage,Jaula
+Fish-In,Pescar dentro de
+Charter,Alquilar barco
+Charter-to,Alquilar barco a
+Travel,Viajar
+Pay-fare,Pagar tarifa
+Take-boat,Tomar barco
+Drink From,Beber de
+Observe,Observar
+Kick,Patear
+Rake,Rastrillar
+Walk-Down,Bajar
+Walk-Up,Subir
+Teleport,Teletransportarse
+Fur Clothing,Ropa de piel
+Decant,Decantar
+Items,Objetos
+Enter-member,Entrar como miembro
+Enter-guest,Entrar como invitado
+Worship,Adorar
+Check,Revisar
+Fill,Llenar
+Charge-at,Cargar en
+Escort,Escoltar
+Supply,Suministrar
+Jump-over,Saltar sobre
+Quick-board,Abordar rapido
+Reinforce,Reforzar
+Spellbook,Libro de hechizos
