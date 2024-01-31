@@ -8,6 +8,7 @@ Pickpocket
 Enter
 Take
 Talk-to
+Talk-To
 Wield
 Withdraw
 Deposit
@@ -38,6 +39,7 @@ Add ignore
 Prices
 Loot
 Chop down
+Chop-down
 View
 Trade
 Claim
@@ -46,9 +48,308 @@ Makeover
 Climb-up
 Climb-down
 Close
-Open
+Open a
 Smelt
 Steal-from
 Mine
 Cook
 Pray-at
+Setup
+Fill
+Check
+Empty
+Commission
+Shop
+Hand-in
+Cool-preform
+Quench-preform
+Take-preform
+Heat-preform
+Dunk-preform
+Exit
+Read
+Open
+Heal
+Trade-with
+Teleport
+Energy
+Alchemy
+Age
+Claim-trophies
+Repair
+Play
+Grapple
+Toggle warnings
+Armour
+Smith
+Check-health
+Inspect
+Guide
+Pay
+Shut
+Pick
+Pick-Lock
+Catch
+Chop
+Take-axe
+Net
+Small Net
+Big Net
+Lure
+Bait
+Use-rod
+Cast
+Cage
+Harpoon
+Fish
+Catch
+Pan
+Fish-In
+Steal from
+Holiday-items
+Redeem-code
+Climb-into
+Assignment
+Rewards
+Settings
+Set-up
+Check totals
+Activity
+Charge
+Uncharge
+Read
+Feel
+Interact
+Cast bloom
+Bloom
+Trim
+Options
+Break
+Ring
+Last-teleport
+Check steps
+Equip
+Monastery Teleport
+Farm Teleport
+Kandarin Monastery
+Ardougne Farm
+Kourend Woodland
+Mount Karuulm
+Functions
+Alchemy
+Ecto Teleport
+Burgh Teleport
+Ectofuntus Pit
+Recharge-prayer
+Rub
+Gem Mine
+Break
+Inside
+Outside
+Group
+Toggle
+Master
+Partner
+Log
+Remove default
+Invoke
+Divine
+Check charges
+Check-charge
+Empty
+Temple
+Surface
+Dismantle
+Commune
+Recite-prayer
+View
+Wiki
+Hide
+Overview
+Bosses
+Tasks
+Rewards
+Collection Log
+Quest List
+Achievement Diaries
+Read journal:
+Settings
+Open Search
+Accurate
+Aggressive
+Defensive
+Controlled
+Rapid
+Longrange
+Bash
+Pound
+Focus
+Choose spell
+Auto retaliate
+View equipment stats
+View guide prices
+View items kept on death
+Call follower
+Set Bonus
+Stat Bonus
+Add all
+Search for item
+Add
+Add-5
+Add-10
+Add-All
+Add-X
+Remove-5
+Remove-10
+Remove-All
+Remove-X
+Toggle
+Deposit-1
+Deposit-5
+Deposit-10
+Deposit-X
+Deposit-All
+Withdraw-1
+Withdraw-5
+Withdraw-10
+Withdraw-X
+Withdraw-All
+Deposit worn items
+Deposit inventory
+Disable
+Enable
+Item
+Note
+Swap
+Insert
+View all items
+View tab
+Show menu
+Hide menu
+Digit
+Roman numeral
+Hide
+Show
+Show worn items
+Group Storage
+Back to bank
+Save
+Shuffle items up.
+Storage Unlocks
+Toggle completed unlocks
+Check kills
+Diassemble
+Revert
+Preach
+Guzzle
+Pages
+Drink
+Mix-cocktail
+Bury
+Select
+Fill box from inventory
+Empty all to inventory
+Impling-jar
+Butterfly-jar
+Lay
+Dismantle
+Investigate
+Locate
+Check-keys
+Next:
+Configure
+Hold
+Transform
+Lap-count
+Release
+Dig
+Swing
+Unstuff
+Launch
+Squash
+Upgrade
+Travel
+Teleport Menu
+Venerate
+Store
+Pick-up
+Lock
+Configuration
+Study
+Observe
+Add-House
+Visit-Last
+Pay (Fruit tree)
+Pay (tree patch)
+Pay (Celastrus tree)
+Pay (Spirit tree)
+Pay (Redwood tree)
+Pet
+Contract
+Harvest
+Fill/Check
+Take-all
+Clean
+Dump
+Pick-from
+Clear
+Descend
+Climb
+Seeds
+Take tools
+Check count
+Toggle warning
+Climb Down
+Jump on
+Stun
+Climb through
+Toggle Fossils
+Spin
+Weave
+Climb Up
+Dive
+Catch
+Pay (north)
+Pay (south)
+Navigate
+Set up
+Climb-under
+Unlock
+Ammo
+Sand
+Swing-on
+Fire
+Pick-up
+Preferences
+Operate
+Take-from
+Take-5
+Climb-over
+Chase
+Enter-member
+Enter-guest
+Decant
+Join Castle Wars
+Claim-staves
+Cross
+Leap
+Balance
+Hurdle
+Jump-off
+Clean
+Add finds
+Look-at
+Look at
+Walk-down
+Push
+Add to
+Get-log
+Count-log
+Haircut
+Shave
+Contract
+Toggle-minerals
+Relocate
+Redecorate
+Remove-coal
+Take-from
