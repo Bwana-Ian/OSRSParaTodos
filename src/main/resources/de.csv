@@ -2,21 +2,22 @@ Walk here,Gehen Sie hier
 Follow,Folgen
 Trade with,Handeln mit
 Report,Bericht
-Examine,Pr�fen
+Examine,Untersuchen
 Attack,Attacke
 Pickpocket,Taschendieb
 Enter,Eingeben
 Take,Nehmen
 Talk-to,Reden mit
-Wield,Aus�ben
-Withdraw,Zur�ckziehen
+Talk-To,Reden mit
+Wield,Ausüben
+Withdraw,Zurückziehen
 Deposit,Kaution
 Cancel,Stornieren
 Bank,Bank
 Collect,Sammeln
 Use,Verwenden
 Drop,Tropfen
-Destroy,Zerst�ren
+Destroy,Zerstören
 Home,Heim
 Build mode,Baumodus
 Build,Bauen
@@ -26,29 +27,328 @@ Buy-plank,Planke kaufen
 Value,Wert
 Buy,Besorgen
 Eat,Essen
-Cast,Gie�en
+Cast,Gießen
 Exchange,Austausch
 History,Geschichte
 Sets,Sets
 Wear,Tragen
 Activate,aktivieren Sie
 Logout,Ausloggen
-Add friend,Freund hinzuf�gen
-Add ignore,Ignorieren hinzuf�gen
+Add friend,Freund hinzufügen
+Add ignore,Ignorieren hinzufügen
 Prices,Preise
 Loot,Beute
-Chop down,F�llen
+Chop down,Fällen
+Chop-down,Fällen
 View,Sicht
 Trade,Handeln
 Claim,Beanspruchen
 Search,Suchen
-Makeover,Verj�ngungskur
+Makeover,Verjüngungskur
 Climb-up,Hochklettern
 Climb-down,Herabsteigen
-Close,Schlie�en
-Opena,�ffne ein
+Close,Schließen
+Opena,Öffne ein
 Smelt,Stint
 Steal-from,Stehlen von
 Mine,Mine
 Cook,Kochen
 Pray-at,Beten
+Setup,Einrichtung
+Fill,Füllen
+Check,Prüfen
+Empty,Leer
+Commission,Provision
+Shop,Laden
+Hand-in,Abgabe
+Cool-preform,Kuhl-Preform
+Quench-preform,Quench-Preform
+Take-preform,Nehmen-Preform
+Heat-preform,Warme-Preform
+Dunk-preform,Eintauchen-Preform
+Exit,Ausgang
+Read,Lesen
+Open,Offen
+Heal,Heilen
+Trade-with,Handel-mit
+Teleport,Teleportieren
+Energy,Energie
+Alchemy,Alchemie
+Age,Alter
+Claim-trophies,Hol dir Trophäen
+Repair,Reparieren
+Play,Spielen
+Grapple,Packen
+Toggle warnings,Warnungen umschalten
+Armour,Rüstung
+Smith,Schmied
+Check-health,Überprüfen des Zustands
+Inspect,Inspizieren
+Guide,Anleitung
+Pay,Bezahlen
+Shut,Schließen
+Pick,Picken
+Pick-Lock,Schloss knacken
+Catch,Fangen
+Chop,Hacken
+Take-axe,Nimm die Axt
+Net,Netto
+Small Net,Kleines Netz
+Big Net,Großes Netz
+Lure,Locken
+Bait,Köder
+Use-rod,Stab verwenden
+Cast,Werfen
+Cage,Käfig
+Harpoon,Harpune
+Fish,Fisch
+Catch,Fangen
+Pan,Pfanne
+Fish-In,Fisch im
+Steal from,Stehlen Sie von
+Holiday-items,Feiertagsartikel
+Redeem-code,Code einlösen
+Climb-into,Klettern Sie hinein
+Assignment,Zuweisung
+Rewards,Belohnungen
+Settings,Einstellungen
+Set-up,Schaltung
+Check totals,Summen prüfen
+Activity,Aktivität
+Charge,Berechnen
+Uncharge,Entladen
+Read,Lesen
+Feel,Fühlen
+Interact,Interagieren
+Cast bloom,Gegossene Blüte
+Bloom,Blühen
+Trim,Stutzen
+Options,Optionen
+Break,Brechen
+Ring,Ring
+Last-teleport,Letzter Teleporter
+Check steps,Überprüfen Sie die Schritte
+Equip,Ausrüsten
+Monastery Teleport,Kloster-Teleportation
+Farm Teleport,Bauernhof Teleport
+Kandarin Monastery,Kandarin-Kloster
+Ardougne Farm,Bauernhof Ardougne
+Kourend Woodland,Kourend-Wald
+Mount Karuulm,Berg Karuulm
+Functions,Funktionen
+Alchemy,Alchemie
+Ecto Teleport,Ecto-Teleportation
+Burgh Teleport,Burgh-Teleporter
+Ectofuntus Pit,Grube Ectofuntus
+Recharge-prayer,Auflade-Gebet
+Rub,Reiben
+Gem Mine,Edelstein-Mine
+Break,Brechen
+Inside,Innerhalb
+Outside,Außen
+Group,Gruppe
+Toggle,Umschalten
+Master,Meister
+Partner,Partner
+Log,Log
+Remove default,Standard entfernen
+Invoke,Anrufen
+Divine,Göttlich
+Check charges,Gebühren prüfen
+Check-charge,Gebühren prüfen
+Temple,Tempel
+Surface,Oberfläche
+Dismantle,Abbauen
+Commune,Kommune
+Recite-prayer,Gebet rezitieren
+View,Ansehen
+Wiki,Wiki
+Hide,Verstecken
+Overview,Überblick
+Bosses,Bosse
+Tasks,Aufgaben
+Rewards,Belohnungen
+Collection Log,Sammlungsprotokoll
+Quest List,Questliste
+Achievement Diaries,Tagebücher für Errungenschaften
+Read journal:,Zeitschrift lesen:
+Settings,Einstellungen
+Open Search,Suche öffnen
+Accurate,Genau
+Aggressive,Aggressiv
+Defensive,Defensiv
+Controlled,Gesteuert
+Rapid,Schnell
+Longrange,Große Reichweite
+Bash,Schlagen
+Pound,Pfund
+Focus,Brennpunkt
+Choose spell,Wählen Sie einen Zauberspruch
+Auto retaliate,Automatische Vergeltung
+View equipment stats,Ausrüstungsstatistiken anzeigen
+View guide prices,Richtpreise anzeigen
+View items kept on death,Gegenstände anzeigen, die nach dem Tod aufbewahrt werden
+Call follower,Anruffolger
+Set Bonus,Setbonus
+Stat Bonus,Stat-Bonus
+Add all,Alle hinzufügen
+Search for item,Suche nach Artikel
+Add,Hinzufügen
+Add-5,Hinzufügen-5
+Add-10,Hinzufügen-10
+Add-All,Hinzufügen-Alle
+Add-X,Hinzufügen-X
+Remove-5,Entfernen-5
+Remove-10,Entfernen-10
+Remove-All,Entfernen-Alle
+Remove-X,Entfernen-X
+Toggle,Umschalten
+Deposit-1,Deponieren-1
+Deposit-5,Deponieren-5
+Deposit-10,Deponieren-10
+Deposit-X,Deponieren-X
+Deposit-All,Deponieren-Alle
+Withdraw-1,Zurückziehen-1
+Withdraw-5,Zurückziehen-5
+Withdraw-10,Zurückziehen-10
+Withdraw-X,Zurückziehen-X
+Withdraw-All,Zurückziehen-Alle
+Deposit worn items,Getragene Gegenstände deponieren
+Deposit inventory,Inventar hinterlegen
+Disable,Abschalten
+Enable,Ermöglichen
+Item,Artikel
+Note,Anmerkung
+Swap,Tauschen
+Insert,Einfügen
+View all items,Alle Artikel anzeigen
+View tab,Registerkarte "Ansicht"
+Show menu,Menü anzeigen
+Hide menu,Menü ausblenden
+Digit,Ziffer
+Roman numeral,Römische Ziffer
+Hide,Verstecken
+Show,Zeigen
+Show worn items,Getragene Artikel anzeigen
+Group Storage,Gruppenspeicher
+Back to bank,Zurück zur Bank
+Save,Retten
+Shuffle items up,Elemente nach oben mischen
+Storage Unlocks,Speicher wird freigeschaltet
+Toggle completed unlocks,Abgeschlossene Freischaltungen umschalten
+Check kills,Kills prüfen
+Diassemble,Zerlegen
+Revert,Zurückkehren
+Preach,Predigen
+Guzzle,Fressen
+Pages,Seiten
+Drink,Trinken
+Mix-cocktail,Cocktail mixen
+Bury,Begraben
+Select,Auswählen
+Fill box from inventory,Box aus dem Inventar füllen
+Empty all to inventory,Alle in den Bestand leeren
+Impling-jar,Impling-Jar
+Butterfly-jar,Schmetterlings-Glas
+Lay,Legen
+Dismantle,Abbauen
+Investigate,Untersuchen
+Locate,Orten
+Check-keys,Prüfschlüssel
+Next:,Nächster:
+Configure,Konfigurieren
+Hold,Halten
+Transform,Umwandeln
+Lap-count,Runden-Zählung
+Release,Loslassen
+Dig,Graben
+Swing,Schwung
+Unstuff,Unstuff
+Launch,Abschießen
+Squash,Quetschen
+Upgrade,Upgrade
+Travel,Reise
+Teleport Menu,Teleport-Menü
+Venerate,Verehren
+Store,Abspeichern
+Pick-up,Tonabnehmer
+Lock,Schleuse
+Configuration,Konfiguration
+Study,Studieren
+Observe,Beobachten
+Add-House,Haus hinzufügen
+Visit-Last,Letzter Besuch
+Pay (Fruit tree),Bezahlen (Obstbaum)
+Pay (tree patch),Bezahlen (Baumbeet)
+Pay (Celastrus tree),Bezahlen (Celastrus-Baum)
+Pay (Spirit tree),Bezahlen (Geisterbaum)
+Pay (Redwood tree),Bezahlen (Mammutbaum)
+Pet,Streicheln
+Contract,Vertrag
+Harvest,Ernte
+Fill/Check,Ausfüllen/Prüfen
+Take-all,Alles zum Mitnehmen
+Clean,Sauber
+Dump,Müllkippe
+Pick-from,Wählen Sie aus
+Clear,Klar
+Descend,Abstammen
+Climb,Klettern
+Seeds,Samen
+Take tools,Werkzeuge mitnehmen
+Check count,Anzahl prüfen
+Toggle warning,Warnung umschalten
+Climb Down,Hinunterklettern
+Jump on,Springen Sie auf
+Stun,Betäuben
+Climb through,Klettern Sie durch
+Toggle Fossils,Fossilien umschalten
+Spin,Drehen
+Weave,Flechten
+Climb Up,Hinaufsteigen
+Dive,Tauchen
+Catch,Fangen
+Pay (north),Bezahlen (Norden)
+Pay (south),Bezahlen (Süden)
+Navigate,Navigieren
+Set up,Aufstellen
+Climb-under,Unterklettern
+Unlock,Aufschließen
+Ammo,Munition
+Sand,Sand
+Swing-on,Aufschwingen
+Fire,Feuer
+Pick-up,Tonabnehmer
+Preferences,Einstellungen
+Operate,Operieren
+Take-from,Entnehmen
+Take-5,Nimm 5
+Climb-over,Überklettern
+Chase,Jagen
+Enter-member,Mitglied eingeben
+Enter-guest,Gast eingeben
+Decant,Umfüllen
+Join Castle Wars,Schließe dich Castle Wars an
+Claim-staves,Notenzeilen beanspruchen
+Cross,Kreuz
+Leap,Springen
+Balance,Gleichgewicht
+Hurdle,Hürde
+Jump-off,Abspringen
+Clean,Sauber
+Add finds,Hinzufügen von Fundstücken
+Look-at,Schau auf
+Look at,Schau auf
+Walk-down,Hinuntergehen
+Push,Drücken
+Add to,Hinzufügen zu
+Get-log,Protokoll abrufen
+Count-log,Zähl-Protokoll
+Haircut,Haarschnitt
+Shave,Rasieren
+Contract,Vertrag
+Toggle-minerals,Mineralien umschalten
+Relocate,Umziehen
+Redecorate,Renovieren
+Remove-coal,Kohle entfernen
+Take-from,Entnehmen
